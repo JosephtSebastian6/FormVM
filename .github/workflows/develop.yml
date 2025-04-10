@@ -44,4 +44,4 @@ jobs:
           script: |
             cd ~/form-app
             npm install --production
-            pm2 restart app || pm2 start server.js --name app
+            pm2 restart app || pm2 start server.js --name app 
