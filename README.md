@@ -59,7 +59,9 @@ Clone this repository to your desired folder:
 
  cd FORMULARIO_SENA2
  git clone 
- https://github.com/BryanMBS/FORMULARIO_SENA2.git
+ (https://github.com/JosephtSebastian6/FormVM.git)
+Authors
+Josepht Gonzalez
 Install
 Install this project with:
 
@@ -115,11 +117,11 @@ To test the ESLint linter:
 (back to top)
 
 👥 Authors
-BRYAN MORA
+Josepthsebastian6
 
 👤 Author1
 
-GitHub: @BryanMBS
+GitHub: @Josepthsebastian6
 (back to top)
 
 🔭 Future Features
