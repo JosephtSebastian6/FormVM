@@ -20,52 +20,86 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 cd FORMULARIO_SENA2 git clone https://github.com/JosephtSebastian6/FormVM.git
-[
-Install Install this project with:
+### Install
+
+Install this project with:
+
+Lighthouse run
+sh
+    npm install -g @lhci/cli@0.7.x
 
 Webhint:
+sh
+     npm install --save-dev hint@7.x
 
- npm install --save-dev hint@7.x
 Stylelint:
+sh
+     npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
 Eslint
+sh
+     npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
- npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 Webpack
+sh
+     npm init -y
+     npm install webpack webpack-cli --save-dev
 
- npm init -y
- npm install webpack webpack-cli --save-dev
+
 Webpack Css loader
+sh
+     npm install --save-dev style-loader css-loader
 
- npm install --save-dev style-loader css-loader
 Webpack html loader
+sh
+     npm install --save-dev html-loader
 
- npm install --save-dev html-loader
+
 Webpack html plugin
+sh
+     npm install --save-dev html-webpack-plugin
 
- npm install --save-dev html-webpack-plugin
+
 Webpack dev server
+sh
+     npm install --save-dev webpack-dev-server
 
- npm install --save-dev webpack-dev-server
 Babel Dependency loader
+sh
+     npm install --save-dev babel-loader
 
- npm install --save-dev babel-loader
-Usage To run locally run the following command:
+Minify CSS: To reduce the size of your CSS file by removing unnecessary characters such as whitespace and comments. 
+sh
+     npm install --save-dev css-minimizer-webpack-plugin
 
-Development mode npm run build-dev
+Split Js : If your JS file is large, splitting it into smaller modular files can help improve the loading time. 
+sh
+     npm install --save-dev terser-webpack-plugin
 
-Production mode "build": "webpack --mode=production", "start": "node server.js" Run tests To run tests, run the following command:
 
-To test the Stylelint linter:
+Split CSS: If your CSS file is large, splitting it into smaller modular files can help improve the loading time. 
+sh
+     npm install mini-css-extract-plugin --save-dev
 
-npx stylelint "*/.{css,scss}"
-To test the Webhint:
+Babel core
+sh
+     npm install --save-dev @babel/core @babel/preset-env
 
-npx hint .
-To test the ESLint linter:
+Express and body-parser
+sh
+     npm install --save express body-parser
 
-npx eslint .](https://github.com/JosephtSebastian6/FormVM.git)
+
+Concurrent, the npm package for running multiple commands in parallel
+sh
+     npm install --save-dev concurrently
+
+
+
+### Usage
+
+(https://github.com/JosephtSebastian6/FormVM.git)
 Authors
 Josepht Gonzalez
 👤 Author1
