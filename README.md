@@ -21,7 +21,11 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-📖 [Formulario SENA ]
+📖
+
+[Formulario SENA ]
+
+
 [Formulario SENA] Es un formulario que permite recopilar de los encuestados si tienen planes a futuro para la compra de un carro, la marca y si cuenta con vehiculo actualmente, es un formulario muy sencillo e interactivo para las personas.
 
 Tech Stack
